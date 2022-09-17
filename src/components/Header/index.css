@@ -1,0 +1,82 @@
+/* Write your CSS code here */
+.nav-container {
+  margin: 100px;
+  border-top: 5px solid #6d396b;
+  border-left: 5px solid #6d396b;
+  border-right: 5px solid #6d396b;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.nav-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.header-img {
+  width: 35px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.h-para-1 {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.h-img-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-para {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.nav-item {
+  color: #12022f;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    margin: 40px;
+    padding-top: 15px;
+    margin-bottom: 0;
+  }
+  .list-container {
+    margin-right: 5px;
+  }
+  .header-img {
+    margin-left: 5px;
+  }
+  .list-para {
+    margin-left: 4px;
+  }
+  .h-img-cont {
+    justify-content: flex-start;
+  }
+  .nav-items-container {
+    justify-content: flex-start;
+  }
+}
